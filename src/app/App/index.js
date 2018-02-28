@@ -1,18 +1,18 @@
 import React, { Component } from 'react'
 import Main from 'app/Main'
 import About from 'app/About'
-import 'react-router-dom'
+import HeaderMenu from 'components/HeaderMenu'
 import { BrowserRouter as Router, Route } from 'react-router-dom'
-import { Header, Footer } from './styles'
+import { Footer } from './styles'
 
 class App extends Component {
   render() {
     return (
       <Router>
         <div>
-          <Header>asd</Header>
+          <HeaderMenu />
           <main>
-            <Route path="/" component={Main} />
+            <Route exact path="/" component={Main} />
             <Route path="/news" component={Main} />
             <Route path="/about" component={About} />
           </main>
