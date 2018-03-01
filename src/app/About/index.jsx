@@ -32,12 +32,12 @@ class About extends Component {
         </div>
         <div>
           <ContactLink href="https://www.linkedin.com/in/toxblh">
-            <Icon src={twitter} alt="Linkedin" /> Linkedin
+            <Icon src={linkedin} alt="Linkedin" /> Linkedin
           </ContactLink>
         </div>
         <div>
           <ContactLink href="https://twitter.com/Toxblh">
-            <Icon src={linkedin} alt="Twitter" /> Twitter
+            <Icon src={twitter} alt="Twitter" /> Twitter
           </ContactLink>
         </div>
         <div>
